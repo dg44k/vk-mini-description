@@ -1,0 +1,1 @@
+export type IInputNames = 'zodiacValue1' | 'zodiacValue2' | 'nameValue1' | 'nameValue2'

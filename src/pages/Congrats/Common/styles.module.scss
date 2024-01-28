@@ -1,0 +1,29 @@
+@import 'src/styles/resourses/variables.scss';
+
+.name {
+    overflow-wrap: break-word;
+    max-width: 300px;
+    margin: 10px;
+    font-size: 42px;
+    color: rgb(124, 29, 29);
+    display: inline-block;
+}
+
+.zodiac{
+    font-size: 26px;
+    color: rgb(124, 29, 29);
+    display: block;
+}
+
+.logo {
+    position: absolute !important;
+    bottom: 8px;
+    right: 7%;
+    height: 90px;
+}
+
+.title {
+    line-height: 1.5;
+    font-family: $font-family-title;
+    font-size: 31px;
+}

@@ -1,0 +1,19 @@
+@import '../../styles/resourses/variables.scss';
+@import '../../styles/resourses/mixins.scss';
+
+.label {
+    @include input-adaptive-default;
+    display: block;
+}
+
+.title{
+    width: 180px;
+}
+
+.select {
+    @include input-default;
+
+    @media (min-width:320px) and (max-width:780px) {
+        width: auto;
+    }
+}
